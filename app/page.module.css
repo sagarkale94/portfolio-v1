@@ -1,0 +1,145 @@
+.main {
+  min-height: 100vh;
+}
+
+.appImg {
+  border-radius: 50%;
+  border: 1px solid #cac8c470;
+}
+
+.appSection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+.homeMainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .appSection {
+    padding: 20px;
+  }
+  .homeMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeMessage {
+  }
+}
+
+.appSectionNoPadding {
+  padding: 0px;
+}
+
+.homeMessage {
+  margin-left: 50px;
+}
+
+.homeMessageSpan {
+}
+
+.homeMessageH {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.homeMessageP {
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.appFooter {
+  background: black;
+  padding: 20px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.toolbar {
+  width: 180px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  width: 30px;
+  height: 30px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  color: #666666;
+  padding: 25px !important;
+  transition: 0.5s;
+}
+
+.nav-link-details {
+  display: none;
+}
+
+.nav-link:hover .nav-link-details {
+  display: inline;
+  margin-right: 10px;
+}
+.nav-link:hover {
+  background-color: #72b626;
+  border-radius: 100px;
+  padding: 25px 70px !important;
+  font-weight: bold;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.active-nav-link {
+  background-color: #72b626;
+  color: #ffffff;
+}
+
+.fade {
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  .toolbar {
+    display: none;
+  }
+  .homeMessage {
+    margin: 0px;
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeMessageP1 {
+    text-align: center;
+  }
+}
