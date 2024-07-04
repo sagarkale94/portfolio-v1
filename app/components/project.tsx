@@ -8,22 +8,22 @@ export default function Project(props: any) {
         <section className="row even">
           <div className="col-md-8 col-xs-12">
             <div>
-              <h1>{props.projectTitle}</h1>
+              <h3>{props.projectTitle}</h3>
             </div>
             <div className="row">
               <div className="col-md-6 col-xs-12 project-technology-col">
-                <h3>Frontend</h3>
+                <h4>Frontend</h4>
                 <span>{props.frontendTech}</span>
               </div>
               {props.backendTech.length > 0 ? (
                 <div className="col-md-6 col-xs-12 project-technology-col">
-                  <h3>Backend</h3>
+                  <h4>Backend</h4>
                   <span>{props.backendTech}</span>
                 </div>
               ) : null}
             </div>
             <div className="project-functionality">
-              <h3>Functionality</h3>
+              <h4>Functionality</h4>
               <span>{props.description}</span>
             </div>
           </div>
@@ -32,7 +32,8 @@ export default function Project(props: any) {
               data-aos="fade-left"
               data-aos-duration="1000"
               src={props.img}
-              alt="_dms"
+              alt="Project"
+              title="Project"
             />
           </div>
         </section>
@@ -43,27 +44,28 @@ export default function Project(props: any) {
               data-aos="fade-right"
               data-aos-duration="1000"
               src={props.img}
-              alt="_dms"
+              alt="Project"
+              title="Project"
             />
           </div>
           <div className="col-md-8 col-xs-12">
             <div>
-              <h1>{props.projectTitle}</h1>
+              <h3>{props.projectTitle}</h3>
             </div>
             <div className="row">
               <div className="col-md-6 col-xs-12 project-technology-col">
-                <h3>Frontend</h3>
+                <h4>Frontend</h4>
                 <span>{props.frontendTech}</span>
               </div>
               {props.backendTech.length > 0 ? (
                 <div className="col-md-6 col-xs-12 project-technology-col">
-                  <h3>Backend</h3>
+                  <h4>Backend</h4>
                   <span>{props.backendTech}</span>
                 </div>
               ) : null}
             </div>
             <div className="project-functionality">
-              <h3>Functionality</h3>
+              <h4>Functionality</h4>
               <span>{props.description}</span>
             </div>
           </div>

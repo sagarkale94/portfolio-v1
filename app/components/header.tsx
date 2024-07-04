@@ -31,6 +31,7 @@ export default function Header() {
         // activeClassName="active-nav-link"
         href={navLinkData.path}
         key={index}
+        title={navLinkData.path}
       >
         <span className="nav-link-details">{navLinkData.label}</span>
         <i className={navLinkData.iconName} style={{ fontSize: "22px" }}></i>

@@ -108,7 +108,7 @@ a {
   font-weight: bold;
 }
 
-.title-container h1 {
+.title-container h2 {
   color: #666;
   font-size: 56px;
   text-transform: uppercase;
@@ -116,7 +116,7 @@ a {
   font-weight: 800;
 }
 
-.title-container h1 span {
+.title-container h2 span {
   color: #72b626;
 }
 
@@ -189,7 +189,7 @@ a {
   .title-container {
     padding: 60px 0;
   }
-  .title-container h1 {
+  .title-container h2 {
     font-size: 20px;
   }
   .title-bg {
@@ -500,14 +500,14 @@ a {
   }
 }
 
-.project-container h3 {
+.project-container h4 {
   padding: 0;
   margin: 30px 0 10px 0;
   font-weight: 500;
   color: #72b626;
 }
 
-.project-container h1 {
+.project-container h3 {
   padding: 0;
   margin: 0 0 20px 0;
   font-weight: 500;
@@ -551,7 +551,7 @@ a {
   margin: 20px 0 0 0;
 }
 
-.project-technology-col h3 {
+.project-technology-col h4 {
   font-size: 25px !important;
   color: #72b626;
 }
@@ -569,7 +569,7 @@ a {
   margin: 20px 0 0 0;
 }
 
-.project-functionality h3 {
+.project-functionality h4 {
   font-size: 25px !important;
   color: #72b626;
 }

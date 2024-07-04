@@ -117,6 +117,7 @@ export default function Home() {
         <Image
           src={Pic}
           alt="sagar kale pic"
+          title="sagar kale pic"
           width={300}
           className={styles.appImg}
         />
@@ -195,39 +196,69 @@ export default function Home() {
               <h3>MY SKILLS</h3>
               <div className="row mt-5">
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={angular} alt="skill" width={50} />
+                  <Image
+                    src={angular}
+                    alt="Angular"
+                    title="Angular"
+                    width={50}
+                  />
                   <p>Angular</p>
                 </div>
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={material} alt="skill" width={50} />
+                  <Image
+                    src={material}
+                    alt="Angular Material"
+                    title="Angular Material"
+                    width={50}
+                  />
                   <p>Angular Material</p>
                 </div>
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={ngRX} alt="skill" width={50} />
+                  <Image src={ngRX} alt="NgRX" title="NgRX" width={50} />
                   <p>NgRX</p>
                 </div>
               </div>
               <div className="row">
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={reactJS} alt="skill" width={50} />
+                  <Image
+                    src={reactJS}
+                    alt="React JS"
+                    title="React JS"
+                    width={50}
+                  />
                   <p>React JS</p>
                 </div>
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={styledComp} alt="skill" width={50} />
+                  <Image
+                    src={styledComp}
+                    alt="Styled Component"
+                    title="Styled Component"
+                    width={50}
+                  />
                   <p>Styled Component</p>
                 </div>
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={redux} alt="skill" width={50} />
+                  <Image src={redux} alt="Redux" title="Redux" width={50} />
                   <p>Redux</p>
                 </div>
               </div>
               <div className="row">
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={javascript} alt="skill" width={50} />
+                  <Image
+                    src={javascript}
+                    alt="Javascript"
+                    title="Javascript"
+                    width={50}
+                  />
                   <p>Javascript</p>
                 </div>
                 <div className="col-md-4 col-xs-12 skill-item">
-                  <Image src={typescript} alt="skill" width={50} />
+                  <Image
+                    src={typescript}
+                    alt="Type Script"
+                    title="Type Script"
+                    width={50}
+                  />
                   <p>Type Script</p>
                 </div>
               </div>
@@ -462,24 +493,34 @@ export default function Home() {
                   <span className="contact-social-item">
                     <a
                       href="https://www.linkedin.com/in/sagar-kale/"
+                      title="Link for linked in account of Sagar Kale"
                       target="_blank"
                     >
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </span>
                   <span className="contact-social-item">
-                    <a href="https://twitter.com/sagarkale94" target="_blank">
+                    <a
+                      href="https://twitter.com/sagarkale94"
+                      title="Link for twitter account of Sagar Kale"
+                      target="_blank"
+                    >
                       <i className="fa fa-twitter"></i>
                     </a>
                   </span>
                   <span className="contact-social-item">
-                    <a href="https://github.com/sagarkale94" target="_blank">
+                    <a
+                      href="https://github.com/sagarkale94"
+                      title="Link for github account of Sagar Kale"
+                      target="_blank"
+                    >
                       <i className="fa fa-github"></i>
                     </a>
                   </span>
                   <span className="contact-social-item">
                     <a
                       href="https://www.youtube.com/channel/UCwEAJo35LElFtV0XovucHzQ"
+                      title="Link for youtube channel of Sagar Kale"
                       target="_blank"
                     >
                       <i className="fa fa-youtube"></i>
@@ -518,7 +559,7 @@ export default function Home() {
         </div>
       </section>
       <footer className={styles.appFooter}>
-        <span>&copy; 2024 Your Website Name. All Rights Reserved.</span>
+        <span>&copy; 2024 sagarkale.co.in All Rights Reserved.</span>
       </footer>
     </main>
   );

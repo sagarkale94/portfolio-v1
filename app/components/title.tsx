@@ -53,10 +53,10 @@ export default function Title(props: any) {
         {NavBarLinksRender}
       </div> */}
       {/* <i className="fa fa-bars ic-hamberger"></i> */}
-      <h1>
+      <h2>
         {props.splitedTitlePart1}
         <span>{props.splitedTitlePart2}</span>
-      </h1>
+      </h2>
       <span className="title-bg">{props.bgTitle}</span>
     </div>
   );
